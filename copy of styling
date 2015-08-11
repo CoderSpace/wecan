@@ -1,0 +1,32 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
+body {
+    
+           background-repeat:no-repeat;
+           background-size: cover;
+           background-position:center;
+           color:black;
+           font-family: "Times Roman Numeral";
+           font-size:30px;
+           font-weight:bold;
+           line-height:1.5;
+}
+
+.navbar {
+    background-color:#DAA520;
+    padding-left:120px;
+}
+
+.cal {
+    border:solid 1px black;
+    background-color:rgba(255,255,255,0.35);
+}
+.missionStatement {
+    border:solid 1px black;
+    background-color:rgba(255,255,255,0.35);
+}
+
+.navcontent {
+    color:purple;
+}
+

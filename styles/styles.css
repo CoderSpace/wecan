@@ -1,0 +1,125 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
+body {
+    
+           background-repeat:no-repeat;
+           background-size:cover;
+           background-position:center;
+           background-color: white;
+           color:black;
+           font-family: "Times Roman Numeral";
+           font-size:30px;
+           font-weight:bold;
+           line-height:1.5;
+}
+
+.navcontent:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+.navcontent:active {
+    color:blue;
+}
+
+.navbar {
+    padding-left:3px;
+    background-color:gold;
+    opacity:0.8;
+    
+}
+
+.cal {
+    border:solid 1px black;
+    background-color:rgba(255,255,255,0.35);
+}
+.missionStatement {
+    border:solid 1px black;
+    background-color:rgba(255,255,255,0.35);
+}
+
+.navcontent {
+    color:purple;
+    margin-right:80px;
+}
+
+.p4 {
+    padding-left:140px;
+    color:purple;
+}
+
+.wecan {
+    
+    display:inline-block;
+    margin-bottom:5px;
+    margin-top:5px;
+    border-style:double;
+    border-width:10px;
+    border-color:purple;
+    padding-box:5px;
+    margin-left:50px;
+    border-bottom-left-radius:36deg;
+}
+
+.desc {
+    font-size:24px;
+    font-weight:normal;
+    color:purple;
+}
+
+.p {
+    font-size:24px;
+    font-weight:bold;
+    
+}
+
+.p2 {
+    color:gold;
+}
+
+.p1 {
+    color:purple;
+}
+
+.admin {
+ padding-left:50px;
+}
+
+.admin2 {
+ padding-right:50px;
+}
+
+.container2 {
+    padding-left:370px;
+    padding-right:405px;
+}
+
+h3 {
+    font-size:30px;
+    color:purple;
+}
+
+.text-center {
+    color:purple;
+}
+
+.index{
+    background-image:url("../images/wccelc.jpg");
+    background-size:cover;
+}
+
+header{
+    background-color:white;
+}
+
+.jumbotron {
+    opacity:0.8;
+}
+.staff{
+       background-image:url("../images/somethingshort.jpg");
+       background-size:cover;
+}
+
+.thumbnail {
+    opacity:0.85;
+}
