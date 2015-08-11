@@ -56,9 +56,9 @@ body {
     border-style:double;
     border-width:10px;
     border-color:purple;
-    padding-box:5px;
     margin-left:50px;
-    border-bottom-left-radius:36deg;
+    opacity:0.85;
+    
 }
 
 .desc {
