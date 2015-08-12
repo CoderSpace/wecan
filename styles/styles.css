@@ -1,8 +1,9 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
 
 body {
-    
+           background-image: url('../images/WP_000560-1.jpg');
            background-repeat:no-repeat;
+           background-attachment: fixed;
            background-size:cover;
            background-position:center;
            background-color: white;
@@ -15,17 +16,18 @@ body {
 
 .navcontent:hover {
     color:red;
-    text-decoration: underline;
+    
 }
 
 .navcontent:active {
-    color:blue;
+    color:white;
 }
 
 .navbar {
     padding-left:3px;
     background-color:gold;
     opacity:0.8;
+    border: gold solid;
     
 }
 
@@ -41,6 +43,7 @@ body {
 .navcontent {
     color:purple;
     margin-right:80px;
+    
 }
 
 .p4 {
@@ -96,30 +99,74 @@ body {
 
 h3 {
     font-size:30px;
-    color:purple;
+    color:white;
 }
 
 .text-center {
     color:purple;
 }
 
-.index{
-    background-image:url("../images/wccelc.jpg");
-    background-size:cover;
-}
-
 header{
     background-color:white;
 }
 
-.jumbotron {
-    opacity:0.8;
+
+
+.btn {
+    background-color:purple;
 }
-.staff{
-       background-image:url("../images/somethingshort.jpg");
-       background-size:cover;
+.purple {
+    background-color:rgba(255,255,255,0.35);
+    
 }
 
-.thumbnail {
-    opacity:0.85;
-}
+
+header{
+                background-color:white;
+            }
+        
+            
+    
+            
+            .social {
+                width: 50px;
+            }
+            
+            
+            /*<!--*/
+            /*h2 {*/
+            /*    color: white;*/
+            /*}*/
+            /*-->*/
+            
+            
+            
+         <!--These sections are all on the about.html page-->   
+                        
+  #section1 {background-image: url(http://img.fold3.com/img/thumbnail/89324757/400/400/898_416_1342_1200.jpg);background-size: cover;padding-top:20px;height:500px;color: black;background-color: #1E88E5;
+  }
+  #section2 {background-image: url(http://i.istockimg.com/image-zoom/52122004/3/380/253/zoom-52122004-3.jpg);padding-top:20px;height:500px;color: black; background-color: #673ab7;}
+  #section3 {background-image: url(http://i.istockimg.com/image-zoom/37115406/3/380/253/zoom-37115406-3.jpg);background-size: cover;padding-top:20px;height: 500px;color: black; background-color: #ff9800;}
+  #section41 {padding-top:20px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:20px;height:500px;color: #fff; background-color: #009688;}
+  
+  
+         .container, .jumbotron {
+             background: rgba(163, 0, 163,0.8);
+             padding-top: 50px;
+            
+             
+         }  
+          
+        
+        
+       
+          
+           
+           .img {
+               padding-left:600px;
+           }
+           
+        dd {
+            font-size: 16px;
+        }          
