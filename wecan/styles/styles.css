@@ -1,0 +1,172 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
+body {
+           background-image: url('../images/WP_000560-1.jpg');
+           background-repeat:no-repeat;
+           background-attachment: fixed;
+           background-size:cover;
+           background-position:center;
+           background-color: white;
+           color:black;
+           font-family: "Times Roman Numeral";
+           font-size:30px;
+           font-weight:bold;
+           line-height:1.5;
+}
+
+.navcontent:hover {
+    color:red;
+    
+}
+
+.navcontent:active {
+    color:white;
+}
+
+.navbar {
+    padding-left:3px;
+    background-color:gold;
+    opacity:0.8;
+    border: gold solid;
+    
+}
+
+.cal {
+    border:solid 1px black;
+    background-color:rgba(255,255,255,0.35);
+}
+.missionStatement {
+    border:solid 1px black;
+    background-color:rgba(255,255,255,0.35);
+}
+
+.navcontent {
+    color:purple;
+    margin-right:80px;
+    
+}
+
+.p4 {
+    padding-left:140px;
+    color:purple;
+}
+
+.wecan {
+    
+    display:inline-block;
+    margin-bottom:5px;
+    margin-top:5px;
+    border-style:double;
+    border-width:10px;
+    border-color:purple;
+    margin-left:50px;
+    opacity:0.85;
+    
+}
+
+.desc {
+    font-size:24px;
+    font-weight:normal;
+    color:purple;
+}
+
+.p {
+    font-size:24px;
+    font-weight:bold;
+    
+}
+
+.p2 {
+    color:gold;
+}
+
+.p1 {
+    color:purple;
+}
+
+.admin {
+ padding-left:50px;
+}
+
+.admin2 {
+ padding-right:50px;
+}
+
+.container2 {
+    padding-left:370px;
+    padding-right:405px;
+}
+
+h3 {
+    font-size:30px;
+    color:white;
+}
+
+.text-center {
+    color:purple;
+}
+
+header{
+    background-color:white;
+}
+
+
+
+.btn {
+    background-color:purple;
+}
+.purple {
+    background-color:rgba(255,255,255,0.35);
+    
+}
+
+
+header{
+                background-color:white;
+            }
+        
+            
+    
+            
+            .social {
+                width: 50px;
+            }
+            
+            
+            /*<!--*/
+            /*h2 {*/
+            /*    color: white;*/
+            /*}*/
+            /*-->*/
+            
+            
+            
+         <!--These sections are all on the about.html page-->   
+                        
+  #section1 {background-image: url(http://img.fold3.com/img/thumbnail/89324757/400/400/898_416_1342_1200.jpg);background-size: cover;padding-top:20px;height:500px;color: black;background-color: #1E88E5;
+  }
+  #section2 {background-image: url(http://i.istockimg.com/image-zoom/52122004/3/380/253/zoom-52122004-3.jpg);padding-top:20px;height:500px;color: black; background-color: #673ab7;}
+  #section3 {background-image: url(http://i.istockimg.com/image-zoom/37115406/3/380/253/zoom-37115406-3.jpg);background-size: cover;padding-top:20px;height: 500px;color: black; background-color: #ff9800;}
+  #section41 {padding-top:20px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:20px;height:500px;color: #fff; background-color: #009688;}
+  
+  
+         .container, .jumbotron {
+             background: rgba(163, 0, 163,0.8);
+             padding-top: 50px;
+            
+             
+         }  
+          
+        
+        
+       
+          
+           
+           .img {
+               padding-left:600px;
+           }
+           
+        dd {
+            font-size: 16px;
+        }          
