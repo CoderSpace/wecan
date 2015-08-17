@@ -7,7 +7,7 @@ body {
            background-size:cover;
            background-position:center;
            background-color: white;
-           color:black;
+           color: black;
            font-family: "Times Roman Numeral";
            font-size:30px;
            font-weight:bold;
@@ -48,7 +48,7 @@ body {
 
 .p4 {
     padding-left:140px;
-    color:purple;
+    color:white;
 }
 
 .wecan {
@@ -67,12 +67,13 @@ body {
 .desc {
     font-size:24px;
     font-weight:normal;
-    color:purple;
+    color:white;
 }
 
 .p {
     font-size:24px;
     font-weight:bold;
+    color: white;
     
 }
 
@@ -81,7 +82,7 @@ body {
 }
 
 .p1 {
-    color:purple;
+    color:white;
 }
 
 .admin {
@@ -103,7 +104,7 @@ h3 {
 }
 
 .text-center {
-    color:purple;
+    color:white;
 }
 
 header{
@@ -141,7 +142,7 @@ header{
             
             
             
-         <!--These sections are all on the about.html page-->   
+        /* <!--These sections are all on the about.html page-->   */
                         
   #section1 {background-image: url(http://img.fold3.com/img/thumbnail/89324757/400/400/898_416_1342_1200.jpg);background-size: cover;padding-top:20px;height:500px;color: black;background-color: #1E88E5;
   }
@@ -178,5 +179,33 @@ header{
 
         .thumbnail {
             width:300px;
-            height:900px;
+            height:700px;
         }
+        
+    .container {
+             background: rgba(163, 0, 163,0.8);
+             padding-top: 50px;
+             opacity:50;
+             
+             
+             
+    }
+    
+    
+    .contact {
+        color: white;
+        font-size: 60px;
+    }
+    
+    
+    .info {
+        color: white;
+    }
+    
+    .control-label {
+        color: white;
+    }
+    
+    .class {
+        color: black;
+    }
