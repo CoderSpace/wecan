@@ -204,9 +204,28 @@ header{
     
     img {
         height: 300px;
+        border: solid;
+        border-color: gold;
     }
     
     .william {
         height: 250px;
         width: 230px;
     }
+
+    .dropdown-menu {
+            background-color:gold;
+        }
+        
+        .names {
+            color: gold;
+        }
+   nav .container{
+            background-color:inherit;
+            padding-top:0px;
+        }
+        
+        
+        .class {
+            color: black;
+        }
