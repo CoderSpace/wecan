@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="application-name" content="sitecake" data-pageid="022e841b85401eee59cf675e91922fa0d6a3c2c7">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>Video</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-inverse"><div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+<li><a href="index.html">Home</a></li>
+
+                    <li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+
+
+                        <ul class="dropdown-menu">
+<li><a href="about.html">History</a></li>
+                            <li><a href="staff.html">Staff</a></li>
+                            <li><a href="programs.html">Programs</a></li>
+                            <li><a href="video.html">Video</a></li>
+
+                        </ul>
+</li>
+
+                    <li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Housing <span class="caret"></span></a>
+
+
+                        <ul class="dropdown-menu">
+<li><a href="housing.html">Buildings</a></li>
+                            <li><a href="app.html">Application</a></li>
+
+                        </ul>
+</li>
+
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+</div>
+        </div>
+    </nav><div class="container sc-content sc-content-_cnt_727833961142621357">
+        <h1 class="contact text-center">Video</h1>
+
+    
+    
+
+
+    <div class="row sc-content sc-content-_cnt_180861641665391045">
+        <div class="col-md-10 col-md-offset-1 sc-content sc-content-_cnt_989887519718403337">
+            
+    <!-- Copy & Pasted from YouTube -->
+    <iframe width="560" height="349" src="https://www.youtube.com/embed/YCrbs5xYQXw" frameborder="0" allowfullscreen></iframe>
+       </div>
+            
+    </div>
+    
+
+
+
+    <div class="row sc-content sc-content-_cnt_1817262421619719483">
+
+        
+            <br><h1 class="p2">The Community and Arts Program</h1>
+
+            <p class="desc">This video tells the story of how WECAN came to be and how they still pose as a significant
+                <br>factor to helping aid the community.</p>
+        </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><script>// Find all YouTube videos
+var $allVideos = $("iframe[src^='//www.youtube.com']"),
+
+    // The element that is fluid width
+    $fluidEl = $("body");
+
+// Figure out and save aspect ratio for each video
+$allVideos.each(function() {
+
+  $(this)
+    .data('aspectRatio', this.height / this.width)
+
+    // and remove the hard coded width/height
+    .removeAttr('height')
+    .removeAttr('width');
+
+});
+
+// When the window is resized
+$(window).resize(function() {
+
+  var newWidth = $fluidEl.width();
+
+  // Resize all videos according to their own aspect ratio
+  $allVideos.each(function() {
+
+    var $el = $(this);
+    $el
+      .width(newWidth)
+      .height(newWidth * $el.data('aspectRatio'));
+
+  });
+
+// Kick off one resize to fix all videos on page load
+}).resize();</script>
+</body>
+</html>
