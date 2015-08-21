@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<title>Video</title>
-<link href="styles/styles.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Video</title>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
+
 <body>
 
-    <nav class="navbar navbar-default navbar-inverse"><div class="container">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container">
 
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -20,100 +23,151 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-<li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
 
                     <li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
 
 
                         <ul class="dropdown-menu">
-<li><a href="about.html">History</a></li>
+                            <li><a href="about.html">History</a></li>
                             <li><a href="staff.html">Staff</a></li>
                             <li><a href="programs.html">Programs</a></li>
                             <li><a href="video.html">Video</a></li>
 
                         </ul>
-</li>
+                    </li>
 
                     <li class="dropdown">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Housing <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Housing <span class="caret"></span></a>
 
 
                         <ul class="dropdown-menu">
-<li><a href="housing.html">Buildings</a></li>
+                            <li><a href="housing.html">Buildings</a></li>
                             <li><a href="app.html">Application</a></li>
 
                         </ul>
-</li>
+                    </li>
 
                     <li><a href="contact.html">Contact</a></li>
+                       <li><a href="donate.html">Donate</a></li>
                 </ul>
-</div>
+            </div>
         </div>
-    </nav><div class="container sc-content">
+    </nav>
+    
+    
+    <div class="container sc-content">
         <h1 class="contact text-center">Video</h1>
 
-    
-    
 
-
-    <div class="row sc-content">
-        <div class="col-md-10 col-md-offset-1 sc-content">
-            
-    <!-- Copy & Pasted from YouTube -->
-    <iframe width="560" height="349" src="https://www.youtube.com/embed/YCrbs5xYQXw" frameborder="0" allowfullscreen></iframe>
-       </div>
-            
-    </div>
-    
-
-
-
-    <div class="row sc-content">
 
         
-            <br><h1 class="p2">The Community and Arts Program</h1>
+            <div class="auto-resizable-iframe">
+            <div class="row sc-content">
+                <div class="col-md-10 col-md-offset-1 sc-content">
 
-            <p class="desc">This video tells the story of how WECAN came to be and how they still pose as a significant
-                <br>factor to helping aid the community.</p>
+                    <!-- Copy & Pasted from YouTube -->
+                    <iframe width="950" height="400" src="https://www.youtube.com/embed/YCrbs5xYQXw" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+        </div>
+     </div>
+     
+     <div class="container sc-content">
+
+        <div class="V">
+            <div class="row sc-content">
+
+
+                <br>
+                <h1 class="p2">The Community and Arts Program</h1>
+
+                <p class="desc">This video tells the story of how WECAN came to be and how they still pose as a significant
+                    <br>factor to helping aid the community.</p>
+            </div>
         </div>
     </div>
+    </div>
     
+    
+    
+    
+    
+    <div class="footer">
+  <h1 class="bottom">W</h1>
+  <h2 class="easy">oodlawn</h2>
+  <h1 class="plastic">E</h1>
+  <h2 class="bags">ast</h2>
+  <h1 class="meat">C</h1>
+  <h2 class="trash">ommunity</h2>
+  <h1 class="slap">A</h1>
+  <h2 class="hand">nd</h2>
+  <h1 class="bite">N</h1>
+  <h2 class="boxes">eighbors</h2>
+  <h3 class="baggie">6450 S. Stony Island Ave. Chicago, Illnois 60637<br>Phone: (773)288-3000<br>Fax: (773)288-3081</h3>
+  <p class="gumgum">Made by PHANTASTIK4 from CoderSpace</p>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        // Find all YouTube videos
+        var $allVideos = $("iframe[src^='//www.youtube.com']"),
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><script>// Find all YouTube videos
-var $allVideos = $("iframe[src^='//www.youtube.com']"),
+            // The element that is fluid width
+            $fluidEl = $("body");
 
-    // The element that is fluid width
-    $fluidEl = $("body");
+        // Figure out and save aspect ratio for each video
+        $allVideos.each(function() {
 
-// Figure out and save aspect ratio for each video
-$allVideos.each(function() {
+            $(this)
+                .data('aspectRatio', this.height / this.width)
 
-  $(this)
-    .data('aspectRatio', this.height / this.width)
+            // and remove the hard coded width/height
+            .removeAttr('height')
+                .removeAttr('width');
 
-    // and remove the hard coded width/height
-    .removeAttr('height')
-    .removeAttr('width');
+        });
 
-});
+        // When the window is resized
+        $(window).resize(function() {
 
-// When the window is resized
-$(window).resize(function() {
+            var newWidth = $fluidEl.width();
 
-  var newWidth = $fluidEl.width();
+            // Resize all videos according to their own aspect ratio
+            $allVideos.each(function() {
 
-  // Resize all videos according to their own aspect ratio
-  $allVideos.each(function() {
+                var $el = $(this);
+                $el
+                    .width(newWidth)
+                    .height(newWidth * $el.data('aspectRatio'));
 
-    var $el = $(this);
-    $el
-      .width(newWidth)
-      .height(newWidth * $el.data('aspectRatio'));
+            });
 
-  });
-
-// Kick off one resize to fix all videos on page load
-}).resize();</script>
+            // Kick off one resize to fix all videos on page load
+        }).resize();
+    </script>
 </body>
+
 </html>

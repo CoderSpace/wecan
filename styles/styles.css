@@ -287,8 +287,51 @@ header{
         
 .giant {
             font-size: 300px;
-            color: purple;
+            color: white;
         }
+    
+    @media only screen 
+    and (min-width : 0px)
+    and (max-width : 300px) {
+
+       .giant{
+        font-size: 50px;
+       }
+
+    }
+    
+        @media only screen 
+and (min-width : 300px)
+and (max-width : 500px) {
+
+   .giant {
+    font-size: 80px;
+   }
+
+}
+
+    @media only screen 
+    and (min-width : 500px)
+    and (max-width : 800px) {
+
+       .giant{
+        font-size: 100px;
+       }
+
+    }
+    
+    @media only screen 
+    and (min-width : 800px)
+    and (max-width : 1200px) {
+
+       .giant{
+        font-size: 100px;
+       }
+
+    }
+
+
+
    /*     
  .videoWrapper {
 	position: relative;
@@ -304,3 +347,130 @@ header{
 	height: 100%;
 }
  */       
+ 
+ 
+ .building {
+     color:purple;
+ }
+ 
+  .smaller {
+      font-size: 16px;
+  }
+  
+  
+  .V{
+    margin-right: -15px;
+    margin-left: 180px;
+}
+
+
+
+.footer {
+  background-color: black;
+  height:150px;
+    width:1821px;
+opacity: 0.9;
+    position: relative;
+    top: 74px;
+   
+
+}
+
+.baggie {
+  color: gold;
+  position: relative;
+  top: -500px;
+    left: 700px;
+}
+
+.gumgum {
+  color: white;
+  position: relative;
+  top: -520px;
+  left: 1500px;
+  font-size: 16px;
+}
+
+
+.bottom {
+  color: gold;
+  position: relative;
+  top:60px;
+  left: 20px;
+}
+
+.easy {
+  color: purple;
+  position: relative;
+  left: 50px;
+  top: 5px;
+}
+
+
+.plastic {
+  color: gold;
+  position: relative;
+  top: -52px;
+  left: 155px;
+}
+
+.bags {
+  color: purple;
+  position: relative;
+  top: -107px;
+  left: 179px;
+}
+
+
+.meat {
+  color: gold;
+  position: relative;
+  top: -164px;
+  left: 215px;
+}
+
+
+.trash {
+  color: purple;
+  position: relative;
+  top: -220px;
+  left: 240px;
+}
+
+.slap {
+  color: gold;
+  position: relative;
+  top: -277px;
+  left: 362px;
+}
+
+.hand {
+  color: purple;
+  position: relative;
+  top: -332px;
+  left: 389px;
+}
+
+.bite {
+  color: gold;
+  position: relative;
+  top: -389px;
+  left: 425px;
+}
+
+
+.boxes {
+  color: purple;
+  position: relative;
+  top: -443px;
+  left: 450px;
+}
+
+
+
+
+
+
+    .gooby {
+        color: white;
+    }
