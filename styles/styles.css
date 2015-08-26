@@ -1,7 +1,7 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
 
 body {
-           background-image: url('../images/WP_000560-1.jpg');
+           background-image: url('../images/003-1.jpg');
            background-repeat:no-repeat;
            background-attachment: fixed;
            background-size:cover;
@@ -365,15 +365,21 @@ and (max-width : 500px) {
     margin-left: 180px;
 }
 
-
-
-.footer {
+footer {
   background-color: black;
-  height:164px;
+  height:184px;
   opacity: 0.9;
   position: relative;
   top: 74px;
-   
+  color:white;
+  font-size:81%;
+   }
+.container footer {
+    background-color:black;
+    background:;
+             padding-top: 50px;
+             opacity:50;
+             
 }
 
 
