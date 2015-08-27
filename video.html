@@ -70,11 +70,12 @@
                     </li>
 
                     <li><a href="contact.html">Contact</a></li>
-                   
+                    
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <div class="container sc-content">
         <h1 class="contact text-center">Video</h1>
@@ -90,6 +91,7 @@
                     <div class="video-container">
                         <iframe width="950" height="400" src="https://www.youtube.com/embed/YCrbs5xYQXw" frameborder="0" allowfullscreen></iframe>
                     </div>
+                    <!-- End YouTube Embed -->
                 </div>
             </div>
         </div>
@@ -112,60 +114,26 @@
         </div>
     </div>
    
+    
     <footer>
         <div class="container">
+            
             <div class="row">
-                <div class="col-md-4 ">
+                <div class="col-md-4 info ">
                     Woodlawn East Community And Neighbors
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 info">
                     6450 S. Stony Island Ave. Chicago,Illinois 60637 Phone:773-288-3000 Fax:773-288-3081</div>
-                <div class="col-md-4">
+                <div class="col-md-4 info">
                     Made by Phantastik 4 from CoderSpace</div>
             </div>
+
         </div>
 
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script>
-        // Find all YouTube videos
-        var $allVideos = $("iframe[src^='//www.youtube.com']"),
-
-            // The element that is fluid width
-            $fluidEl = $("body");
-
-        // Figure out and save aspect ratio for each video
-        $allVideos.each(function() {
-
-            $(this)
-                .data('aspectRatio', this.height / this.width)
-
-            // and remove the hard coded width/height
-            .removeAttr('height')
-                .removeAttr('width');
-
-        });
-
-        // When the window is resized
-        $(window).resize(function() {
-
-            var newWidth = $fluidEl.width();
-
-            // Resize all videos according to their own aspect ratio
-            $allVideos.each(function() {
-
-                var $el = $(this);
-                $el
-                    .width(newWidth)
-                    .height(newWidth * $el.data('aspectRatio'));
-
-            });
-
-            // Kick off one resize to fix all videos on page load
-        }).resize();
-    </script>
-</body>
+    </body>
 
 </html>

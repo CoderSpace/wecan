@@ -368,6 +368,7 @@ and (max-width : 500px) {
     margin-left: 180px;
 }
 
+
 footer {
   background-color: black;
   height:184px;
@@ -383,6 +384,20 @@ footer {
              padding-top: 50px;
              opacity:50;
              
+}
+
+
+
+
+footer {
+   background-color: black;
+  height:170px;
+    width:100%;
+  opacity: 0.9;
+  position: relative;
+  top: 200px;
+   
+
 }
 
 
@@ -485,6 +500,7 @@ footer {
         color: white;
     }
 
+
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
@@ -509,7 +525,17 @@ footer {
 
 
 
- .row {
-     margin-left: 90px;
+ {
+     margin-left:;
  }
 
+
+
+        label {
+            color:white;
+        }
+        
+        
+        
+        
+     

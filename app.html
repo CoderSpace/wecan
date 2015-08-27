@@ -71,17 +71,22 @@
                     </li>
 
                     <li><a href="contact.html">Contact</a></li>
-                    
                 </ul>
             </div>
         </div>
     </nav>
     
+    
+    
+    
+        
     <div class="container sc-content">
         <h1 class="contact text-center">Application</h1>
 
 
-        <form class="form-inline">
+        <form class="form-inline" method="post" action="contactengine.php">
+          
+          <fieldset>
             <div class="form-group">
                 <label for="exampleInputName2">First Name</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="First Name">
@@ -96,11 +101,11 @@
                 <label for="exampleInputName2">Last Name</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Last Name">
             </div>
-        </form>
+        </fieldset>
 
         <br>
 
-        <form class="form-inline">
+        <fieldset class="form-inline" method="post" action="contactengine.php">
             <div class="form-group">
                 <label for="exampleInputName2">Address</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="1234 E. WollowBrook Rd.">
@@ -116,11 +121,11 @@
                 <label for="exampleInputName2">State</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="exp. Illinois, Mississippi">
             </div>
-        </form>
+        </fieldset>
 
         <br>
 
-        <form class="form-inline">
+        <fieldset class="form-inline" method="post" action="contactengine.php">
             <div class="form-group">
                 <label for="exampleInputName2">Zip Code</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="exp.60127">
@@ -136,11 +141,11 @@
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="exp. (123)456-7890">
             </div>
 
-        </form>
+        </fieldset>
 
         <br>
 
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <label>Type of Unit</label>
             <select class="form-control">
                 <option>Select</option>
@@ -150,12 +155,12 @@
                 <option>3 bedroom apartments</option>
                 <option>4 bedroom apartments</option>
             </select>
-        </form>
+        </fieldset>
 
         <br>
 
         <h2>Do you desire a unit adapted for wheelchairs?</h2>
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <div class="checkbox">
                 <label>
                     <input type="checkbox">Yes
@@ -168,11 +173,11 @@
                 </label>
             </div>
 
-        </form>
+        </fieldset>
 
 
         <h2>Do you have a car?</h2>
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <div class="checkbox">
                 <label>
                     <input type="checkbox">Yes
@@ -185,12 +190,12 @@
                 </label>
             </div>
 
-        </form>
+        </fieldset>
 
 
 
         <h2>Do you have a pet?</h2>
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <div class="checkbox">
                 <label>
                     <input type="checkbox">Yes
@@ -208,12 +213,12 @@
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="type of pet">
             </div>
 
-        </form>
+        </fieldset>
 
 
 
         <h2>Number of people who will be living with you:</h2>
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <select class="form-control">
                 <option>Select</option>
                 <option>1</option>
@@ -227,11 +232,11 @@
                 <option>9</option>
                 <option>10</option>
             </select>
-        </form>
+        </fieldset>
 
 
         <h2>How many will be under 18?</h2>
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <select class="form-control">
                 <option>Select</option>
                 <option>1</option>
@@ -245,12 +250,12 @@
                 <option>9</option>
                 <option>10</option>
             </select>
-        </form>
+        </fieldset>
 
         <h2>Why do you wish to move at this time?</h2>
-        <form>
+        <fieldset>
             <textarea class="form-control" rows="3"></textarea>
-        </form>
+        </fieldset>
 
         <br>
 
@@ -258,7 +263,7 @@
         <h1>Housing History</h1>
 
 
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <div class="form-group">
                 <label for="exampleInputName2">Previous Landlord</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="LandLord Name">
@@ -269,11 +274,11 @@
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Address">
             </div>
 
-        </form>
+        </fieldset>
 
         <br>
 
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <div class="form-group">
                 <label for="exampleInputName2">Phone</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Number">
@@ -283,16 +288,16 @@
                 <label for="exampleInputName2">Monthly Rent</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="$rent$">
             </div>
-        </form>
+        </fieldset>
 
         <br>
 
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <div class="form-group">
                 <label for="exampleInputName2">Monthly Fuel/Electric Cost</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="$$">
             </div>
-        </form>
+        </fieldset>
 
 
 
@@ -306,17 +311,17 @@
             <br> Be sure to indicate all sources which may include but are not limited to: Wages Social Security, SSI, SSDI, Veteran's benefits, Survivor's Benefits, Other Pensions, AFDC, General Relief, Aid to the Blind, Alimony, Child Support, Unemployment
             Compensation, and Worker's Compensation</p>
 
-        <form class="form-inline">
+        <fieldset class="form-inline">
             <div class="form-group">
                 <label for="exampleInputName2" style="font-size:25px; font-weight:normal; color: white">Applicant</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
             </div>
         
-                    </form>
+                    </fieldset>
                     
                     <br>
                     
-                    <form class="form-inline">
+                    <fieldset class="form-inline">
                                     <div class="form-group">
                 <label for="exampleInputName2">Employer</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
@@ -332,11 +337,11 @@
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="City">
             </div>
                         
-                    </form>
+                    </fieldset>
         
         <br>
         
-                    <form class="form-inline">
+                    <fieldset class="form-inline">
                                     <div class="form-group">
                 <label for="exampleInputName2">State</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="State">
@@ -352,11 +357,11 @@
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="###">
             </div>
                         
-                    </form>
+                    </fieldset>
         
             <br>
             
-            <form class="form-inline">
+            <fieldset class="form-inline">
                             <div class="form-group">
                 <label for="exampleInputName2">Position</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="his/her position">
@@ -368,22 +373,22 @@
             </div>
                 
                 
-            </form>
+            </fieldset>
         
         
         <br>
         
-            <form class="form-inline">
+            <fieldset class="form-inline">
             <div class="form-group">
                 <label for="exampleInputName2" style="font-size:25px; font-weight:normal; color: white">Co-Applicant</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
             </div>
         
-                    </form>
+                    </fieldset>
                     
                     <br>
                     
-                    <form class="form-inline">
+                    <fieldset class="form-inline">
                                     <div class="form-group">
                 <label for="exampleInputName2">Employer</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
@@ -399,11 +404,11 @@
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="City">
             </div>
                         
-                    </form>
+                    </fieldset>
         
         <br>
         
-                    <form class="form-inline">
+                    <fieldset class="form-inline">
                                     <div class="form-group">
                 <label for="exampleInputName2">State</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="State">
@@ -419,11 +424,11 @@
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="###">
             </div>
                         
-                    </form>
+                    </fieldset>
         
             <br>
             
-            <form class="form-inline">
+            <fieldset class="form-inline">
                             <div class="form-group">
                 <label for="exampleInputName2">Position</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="his/her position">
@@ -435,7 +440,7 @@
             </div>
                 
                 
-            </form>
+            </fieldset>
         
         <br>
         
@@ -443,7 +448,7 @@
         
         <h2>List any Stocks/Bonds that you own</h2>
         
-        <form class="form-inline">
+        <fieldset class="form-inline">
                      <div class="form-group">
                 <label for="exampleInputName2">Name of Stock</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="name">
@@ -453,11 +458,11 @@
                 <label for="exampleInputName2">Number of Shares</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="number">
             </div>
-        </form>
+        </fieldset>
         
         <br>
         
-        <form class="form-inline">
+        <fieldset class="form-inline">
                      <div class="form-group">
                 <label for="exampleInputName2">Value</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="value">
@@ -468,7 +473,7 @@
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="$$">
             </div>
             
-        </form>
+        </fieldset>
         
         <br>
         
@@ -476,7 +481,7 @@
         
         <h2>List any Real Estate that you currently own</h2>
         
-        <form class="form-inline">
+        <fieldset class="form-inline">
                      <div class="form-group">
                 <label for="exampleInputName2">Address</label>
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="address">
@@ -487,7 +492,7 @@
                 <input type="text" class="form-control" id="exampleInputName2" placeholder="$$">
             </div>
             
-            </form>
+            </fieldset>
             
             <br>
             
@@ -871,6 +876,74 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+=======
+    </nav><div class="container sc-content">
+                <h1 class="contact text-center">Application</h1>
+                <form class="form-inline">
+  <div class="form-group sc-content">
+    <label class="sr-only" for="exampleInputEmail3">First Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="First Name">
+</div>
+  <div class="form-group sc-content">
+    <label class="sr-only" for="exampleInputEmail3">Last Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Last Name">
+</div>
+</form><br>
+
+<select class="form-control"><option>No Selection</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>6
+</select><form class="form-horizontal">
+  <div class="form-group sc-content">
+<br>
+
+    <div class="col-sm-10 sc-content">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+</div>
+  </div>
+  
+  <p class="info">Apartment Choice</p>
+  <select class="form-control"><option>No Selection</option>
+<option>6230 S. Dochester Ave.</option>
+<option>6146 S. Kenwood Ave.</option>
+<option>1554-56 E. 65th St.</option>
+<option>1411-15 E. 65th Pl.</option></select><p class="info">Any Additional Information</p>
+<textarea class="form-control" rows="3"></textarea><div class="form-group sc-content">
+    <div class="col-sm-offset-2 col-sm-10 sc-content">
+      <a href="thanks.html"><button type="submit" class="btn btn-success">APPLY</a></button>
+    </div>
+  </div>
+</form>
+           </form>
+           
+           
+            </div>
+            
+           
+           <div class="footer">
+  <h1 class="bottom">W</h1>
+  <h2 class="easy">oodlawn</h2>
+  <h1 class="plastic">E</h1>
+  <h2 class="bags">ast</h2>
+  <h1 class="meat">C</h1>
+  <h2 class="trash">ommunity</h2>
+  <h1 class="slap">A</h1>
+  <h2 class="hand">nd</h2>
+  <h1 class="bite">N</h1>
+  <h2 class="boxes">eighbors</h2>
+  <h3 class="baggie">6450 S. Stony Island Ave. Chicago, Illnois 60637<br>Phone: (773)288-3000<br>Fax: (773)288-3081</h3>
+  <p class="gumgum">Made by PHANTASTIK4 from CoderSpace</p>
+</div>
+           
+           
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+>>>>>>> made modifications to pages
 </body>
 
 </html>
