@@ -26,7 +26,7 @@ body {
 }
 
 .navbar {
-    padding-left:300px;
+    
     background-color:gold;
     opacity:0.8;
     border: gold solid;
@@ -146,13 +146,6 @@ header{
             
         /* <!--These sections are all on the about.html page-->   */
                         
-  #section1 {background-image: url(http://img.fold3.com/img/thumbnail/89324757/400/400/898_416_1342_1200.jpg);background-size: cover;padding-top:20px;height:500px;color: black;background-color: #1E88E5;
-  }
-  #section2 {background-image: url(http://i.istockimg.com/image-zoom/52122004/3/380/253/zoom-52122004-3.jpg);padding-top:20px;height:500px;color: black; background-color: #673ab7;}
-  #section3 {background-image: url(http://i.istockimg.com/image-zoom/37115406/3/380/253/zoom-37115406-3.jpg);background-size: cover;padding-top:20px;height: 500px;color: black; background-color: #ff9800;}
-  #section41 {padding-top:20px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section42 {padding-top:20px;height:500px;color: #fff; background-color: #009688;}
-  
   
           dt, dd {
               color:white;
@@ -186,9 +179,7 @@ header{
              
     }
     
-     .squishy {
-         padding-left:150px;
-     }
+  
     
     .contact {
         color: white;
@@ -212,7 +203,7 @@ header{
     
     
     img {
-        height: 300px;
+        
         border: solid;
         border-color: gold;
     }
@@ -372,36 +363,23 @@ and (max-width : 500px) {
 
 
 footer {
-  background-color: black;
+  background-color: purple;
   height:184px;
-  opacity: 0.7;
+  width:5000px;
+  opacity: 0.8;
   position: relative;
   top: 74px;
   color:white;
   font-size:81%;
+  
    }
-.container footer {
-    background-color:black;
-    background:;
-             padding-top: 50px;
-             opacity:0.8;
-             
+
+
+.col-sm-1 {
+  position:relative;
+  left: 395px;
+  top: 25px;
 }
-
-
-
-
-footer {
-   background-color: purple;
-  height:170px;
-    width:100%;
-  opacity: 0.8;
-  position: relative;
-  top: 200px;
-   
-
-}
-
     
 
 
@@ -450,4 +428,7 @@ footer {
         
         
         
-     
+    .container{
+        padding-bottom: 10px;
+    } 
+    
