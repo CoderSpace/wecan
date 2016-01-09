@@ -432,3 +432,12 @@ footer {
         padding-bottom: 10px;
     } 
     
+    .coderspace {
+        width: 50px;
+        border: solid;
+        border-color: white;
+    }
+    
+    .spaces {
+        color: white;
+    }
