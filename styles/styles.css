@@ -8,7 +8,7 @@ body {
            background-position:center;
            background-color: white;
            color: black;
-           font-family: "Times Roman Numeral";
+           font-family: "Trebuchet MS", Helvetica, sans-serif;
            font-size:30px;
            font-weight:bold;
            line-height:1.5;
@@ -52,6 +52,17 @@ body {
     padding-left:140px;
     color:white;
 }
+
+.home {
+    background: purple;
+    opacity: 0.8;
+    height: 1em;
+    font-size: 2em;
+    font-weight: italic;
+    padding-bottom: 3%;
+}
+
+
 
 .wecan {
     
@@ -189,6 +200,7 @@ header{
     
     .info {
         color: white;
+        font-weight: italic;
     }
     
     .control-label {
@@ -284,8 +296,9 @@ header{
         }
         
 .giant {
-            font-size: 300px;
+            font-size: 5em;
             color: white;
+            font-family: "Times New Roman", Times, serif;
         }
     
     @media only screen 
@@ -361,6 +374,17 @@ and (max-width : 500px) {
     margin-left: 180px;
 }
 
+.idea {
+  background-color: purple;
+  height:184px;
+  width:5000px;
+  opacity: 0.8;
+  position: relative;
+  color:white;
+  font-size:81%;
+  margin-top: 26em;
+  
+   }
 
 footer {
   background-color: purple;
@@ -368,9 +392,9 @@ footer {
   width:5000px;
   opacity: 0.8;
   position: relative;
-  top: 74px;
   color:white;
   font-size:81%;
+  margin-top: 3em; 
   
    }
 
@@ -441,3 +465,7 @@ footer {
     .spaces {
         color: white;
     }
+
+.tel {
+    color: white;
+}
