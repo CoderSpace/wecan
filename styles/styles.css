@@ -31,6 +31,11 @@ body {
     opacity:0.8;
     border: gold solid;
     
+    
+}
+
+.navbar-collapse.collapse {
+    margin-left: 13%;
 }
 
 .cal {
