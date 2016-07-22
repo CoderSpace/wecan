@@ -1,0 +1,79 @@
+.footer,
+.footer-board {
+    width: 100%;
+    background-color: purple;
+    /*height: 10%;*/
+    bottom: 0 !important;
+    /*left: 0 !important;*/
+    position: absolute;
+    padding-top: 55px !important;
+    margin-top: 25px;
+    font-size: 1.75em;
+    color: white;
+}
+
+.footer,
+.footer-board {
+    width: 100%;
+    background-color: purple;
+    /*height: 10%;*/
+    bottom: 0 !important;
+    /*left: 0 !important;*/
+    position: absolute;
+    padding-top: 55px !important;
+    margin-top: 25px;
+    font-size: 1.75em;
+    color: white;
+}
+
+.footer {
+    position: static;
+}
+
+@media (max-width: 768px) {
+    .footer, .footer-board {
+        position: static !important;
+    }
+}
+
+
+@media (max-width: 1450px) and (min-width:1020px) {
+    .footer-board {
+        width: 100%;
+        background-color: purple;
+        position: absolute !important;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        font-size: 1.75em;
+        color: white;
+    }
+}
+
+@media (min-width: 25px) and (max-width: 425px) {
+    .home-footer {
+        width: 100%;
+        background-color: purple;
+        position: relative !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        padding: 1rem;
+        font-size: 1.75em;
+        color: white;
+    }
+}
+
+@media (min-width: 210px) and (max-width: 992px) {
+    #home-footer {
+        width: 100%;
+        background-color: purple;
+        position: absolute !important;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        font-size: 1.75em;
+        color: white;
+    }
