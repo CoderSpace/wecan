@@ -1,0 +1,98 @@
+a {
+    background-image: none;
+    background-color: rgb(153, 0, 153);
+    /* background-color: white; */
+}
+
+div {
+    font-family: inherit;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 95%;
+    color: #e6c300;
+}
+
+.desc {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 130%;
+    color: #e6c300;
+}
+
+.focused {
+    background-color: white;
+}
+
+input.text.medium.translate {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    color: rgb(51, 51, 51);
+    background: white;
+}
+
+.btTxt {
+    background-color: #e6c300;
+    color: white;
+    width: 20%;
+    height: 30%;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btTxt:hover {
+    cursor:pointer;
+}
+
+.btTxt:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #4d004d;
+}
+
+.wufoo .info h2 {
+    font-size: 200%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+.wufoo .section h3 {
+    font-size: 110%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+    background-color:white;
+}
+
+.wufoo input.btTxt {
+    padding: 10px 25px;
+    font-size: 140%;
+    background-color: #e6c300;
+    color: white;
+    width: 20%;
+    height: 30%;
+    border: none;
+    border-radius: 10px;
+}
+
+#logo a {
+    background-image: url('/images/wflogo.png');
+    min-height: 0;
+    height: 40px;
+    background-color: rgba(133, 0, 122,0.8);
+}
+
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+    font-family: inherit;
+    color: #ffff00;
+    font-size: 100%;
+}

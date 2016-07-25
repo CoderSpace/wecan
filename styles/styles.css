@@ -31,6 +31,7 @@ body {
     background-color:#e6c300;
     opacity:0.9;
     border:#e6c300 solid;
+    z-index:20;
 }
 
 .navbar-collapse.collapse {
@@ -65,7 +66,7 @@ body {
     top: 0px;
     left: 0px;
     z-index: -1;
-  list-style-type:none;
+    list-style-type:none;
 }
 
 .cb-slideshow:after {
@@ -85,7 +86,7 @@ body {
     background-repeat: none;
     opacity: 0;
     z-index: -1;
-    animation: imageAnimation 48s linear infinite 0s;
+    animation: imageAnimation 30s linear infinite 0s;
 }
 
 .cb-slideshow li div {
@@ -142,7 +143,7 @@ body {
 }
 
 .cb-slideshow li:nth-child(6) span {
-    background-image: url("http://www.theblackhomeschool.com/wp-content/uploads/2016/03/Kids-running.jpg");
+    background-image: url("http://d236bkdxj385sg.cloudfront.net/wp-content/uploads/2015/07/Friends-Playing.jpg");
     animation-delay: 30s;
      background-repeat: no-repeat;
      background-size: cover;
@@ -248,7 +249,6 @@ body {
     border-color:purple;
     margin-left:50px;
     opacity:0.85;
-    
 }
 
 .desc {
@@ -261,7 +261,6 @@ body {
     font-size:24px;
     font-weight:bold;
     color: white;
-    
 }
 
 .p2 {
@@ -353,7 +352,7 @@ header{
             font-size: 30px;
         }          
 
-       
+ /*      
         
     .container {
              background: rgba(163, 0, 163,0.8);
@@ -362,7 +361,7 @@ header{
             
              
              
-    }
+    }*/
     
   
     
