@@ -96,3 +96,9 @@ input.text.medium.translate {
     color: #ffff00;
     font-size: 100%;
 }
+
+.pgStyle1 b {
+    font-family: inherit;
+    color: #ffff00;
+    font-size: 95%;
+}
